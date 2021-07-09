@@ -5,7 +5,7 @@ const db = require('./db');
 const sharks = require('./routes/sharks');
 
 const path = __dirname + '/views/';
-const port = 8080;
+const port = 8081;
 
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
